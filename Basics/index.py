@@ -1,7 +1,7 @@
 # How to print things in terminal --
 print("Hello world!!")
 
-# You can use "+" or "," to concatenate strings or "," to concatenate numbers --
+# You can use "+" or "," to concatenate strings or "," to concatenate other data types --
 print("3+3: " + "6")
 print("4+4: ", 8)
 

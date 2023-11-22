@@ -11,6 +11,10 @@ print("Hello world!!")
 print("3+3: " + "6")
 print("4+4: ", 8)
 
+# You can also print using f-string, to show values without concatenating --
+name = "Vicente"
+print(f"\nMy name is {name}")
+
 # *****************************************************************************************************************
 
 print(

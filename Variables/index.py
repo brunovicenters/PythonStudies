@@ -32,6 +32,9 @@ obj = {"brothers":1, "sisters":2, "name": 'Bruno'}
 tr = True
 fl = False
 
+# None works just like null from JS --
+ntng = None
+
 # You can also store more than one variable per line
 # separating them by commas --
 username, password, email, active = (
@@ -50,6 +53,8 @@ print("Array:\n", arr, "\n")
 print("Object:\n", obj, "\n")
 
 print("Boolean:\n", tr, "|", fl, "\n")
+
+print("None:\n", ntng, "\n")
 
 print(
     "Account details:\n",

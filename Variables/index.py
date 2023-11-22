@@ -1,3 +1,9 @@
+# *****************************************************************************************************************
+
+#                                                                      Variables
+
+# *****************************************************************************************************************
+
 # To declare variables, you need to use the following structure --
 # <var_name> = <value>
 # Some rules, restrictions and conventions to name your variables ar:

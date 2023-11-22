@@ -3,7 +3,7 @@
 # Some rules, restrictions and conventions to name your variables ar:
 # 1 - Must start with a letter or underscore;
 # 2 - The rest of the name must contain letters, underscores, or numbers, only;
-# 3 - Variables' name are case-sensitive;
+# 3 - Variables' names are case-sensitive;
 # 4 - Variables should be snake_case (Separated by underscore[_]);
 # 5 - Variables should be lower case, with some exceptions:
 #       1 - CAPITAL_SNAKE_CASE are usually for constants;

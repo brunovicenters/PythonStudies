@@ -26,7 +26,7 @@ num = 10
 arr = [1, 2, 3, 4]
 
 # To store an object --
-obj = {1, 2, 3, 4}
+obj = {"brothers":1, "sisters":2, "name": 'Bruno'}
 
 # To store a boolean --
 tr = True

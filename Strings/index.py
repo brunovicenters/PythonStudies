@@ -25,3 +25,13 @@ print("\nThis is a backslash: \\ ")
 
 # You also can use \" or \' to write quotes --
 print("\nThis is a \"quote\" and", 'this is another \'quote\'')
+
+# *****************************************************************************************************************
+
+#                                                                  f-strings
+
+# *****************************************************************************************************************
+
+# You can also print using f-string, to show values without concatenating --
+name = "Vicente"
+print(f"\nMy name is {name}")

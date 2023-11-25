@@ -35,3 +35,14 @@ print("\nThis is a \"quote\" and", 'this is another \'quote\'')
 # You can also print using f-string, to show values without concatenating --
 name = "Vicente"
 print(f"\nMy name is {name}")
+
+# *****************************************************************************************************************
+
+#                                                               String indexes
+
+# *****************************************************************************************************************
+
+positive = "yes"
+negative = "no"
+
+print(f"\nFor yes, type {positive[0]}, for no, type {negative[0]}")

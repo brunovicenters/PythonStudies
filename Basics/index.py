@@ -59,4 +59,15 @@ print("5//2 =", 5 // 2)
 
 # *****************************************************************************************************************
 
-input("This is a input. Do you like chocolate?")
+input("\nThis is a input. Do you like chocolate?\n")
+
+# *****************************************************************************************************************
+
+#                                                                  ROUND
+
+# *****************************************************************************************************************
+
+PI = 3.14159265359
+# You can round decimal numbers using round --
+# round(number to be rounded, number of decimal points)
+print(f"\nPI is {PI}\nPI rounded is: {round(PI, 2)}")

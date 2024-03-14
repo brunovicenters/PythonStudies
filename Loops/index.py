@@ -43,7 +43,7 @@ for number in range(1, 8):
 
 # *****************************************************************************************************************
 
-print("WHILE:")
+print("\nWHILE:")
 
 im_tired = 0
 
@@ -52,7 +52,7 @@ while im_tired < 10:
     print("I'm tired")
     im_tired += 1
 
-user_response = input("What do you want to do?")
+user_response = input("\nWhat do you want to do? ")
 
 while user_response != "quit":
     user_response = input("Okay, and what do you want to do now? ")

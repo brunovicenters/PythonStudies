@@ -2,7 +2,7 @@ from random import randint
 
 print(".....rock, paper, scissors....")
 
-p1 = input("enter your choice:")
+p1 = input("enter your move:").lower()
 p2 = randint(0, 2)
 
 # Setting value to computer's choice
@@ -22,17 +22,17 @@ if p1 == "rock" or p1 == "paper" or p1 == "scissors":
     elif p1 == "rock":
         if p2 == "scissors":
             print("Player 1 wins!")
-        elif p2 == "paper":
+        else:
             print("Computer wins!")
     elif p1 == "paper":
         if p2 == "rock":
             print("Player 1 wins!")
-        elif p2 == "scissors":
+        else:
             print("Computer wins!")
     elif p1 == "scissors":
         if p2 == "paper":
             print("Player 1 wins!")
-        elif p2 == "rock":
+        else:
             print("Computer wins!")
 else:
     print("Invalid choice!")

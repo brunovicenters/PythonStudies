@@ -52,13 +52,31 @@ print(f"The third last name is {names[-3]}")
 
 # *****************************************************************************************************************
 
-games = ["Hearthstone", "League of Legends", "Need For Speed"]
+games = ["Fifa", "League of Legends", "Need For Speed"]
 
 print("\nGames -->")
 print(f"{games}")
 
 # You can use "in" to check if something is in a list (it's case-sensitive)
 print("\nIN -->")
-print(f'Is Hearthstone in games? {"Hearthstone" in games}')
+print(f'Is Fifa in games? {"Fifa" in games}')
 print(f'Is need for speed in games? {"Need for Speed" in games}')
 print(f'Is NBA2k in games? {"NBA2k" in games}')
+
+# *****************************************************************************************************************
+
+#                                              Loops in lists
+
+# *****************************************************************************************************************
+
+print("\nLoops in lists -->")
+
+print("\nFor ->")
+for game in games:
+    print(f"I like to play {game}")
+
+print("\nWhile ->")
+i = 0
+while i < len(games):
+    print(f"I like to play {games[i]}")
+    i += 1

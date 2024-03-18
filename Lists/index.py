@@ -124,3 +124,20 @@ print("\nINSERT with negative indexes -->")
 # You can use negative indexes
 games.insert(-1, "Cuphead")
 print(f"{games}")
+
+# *****************************************************************************************************************
+
+#                                              CLEAR
+
+# *****************************************************************************************************************
+
+print("\nCLEAR -->")
+
+letters = ["a", "b", "c", "d"]
+print("\nLetters before clear ->")
+print(f"{letters}")
+
+# You can empty a list using clear
+letters.clear()
+print("\nLetters after clear ->")
+print(f"{letters}")

@@ -169,3 +169,16 @@ print(f"{numbers}")
 #                                                      REMOVE
 
 # *****************************************************************************************************************
+
+print("\nREMOVE -->")
+
+names = ["Bruno", "Tarsila", "Abigail", "Bárbara"]
+print("\nNames before remove ->")
+print(f"{names}")
+
+# You can remove a specific data from a list using remove, removing the first match
+# PS: If doesn't find the data, it will raise an error
+names.remove("Abigail")
+
+print("\nNames after remove ->")
+print(f"{names}")

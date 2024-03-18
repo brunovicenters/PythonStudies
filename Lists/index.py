@@ -182,3 +182,18 @@ names.remove("Abigail")
 
 print("\nNames after remove ->")
 print(f"{names}")
+
+# *****************************************************************************************************************
+
+#                                                     INDEX
+
+# *****************************************************************************************************************
+
+print("\nINDEX -->")
+
+# You can get the index of a data in a list using index
+print(f"The index of Tarsila is {names.index('Tarsila')}")
+
+# You can specify the start and stop indexes
+letters = ["a", "b", "c", "d", "b", "e", "f", "b", "g", "h"]
+print(f"\nThe index of the second b is {letters.index('b', 2, 8)}")

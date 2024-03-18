@@ -211,7 +211,7 @@ print(f"The letter b appears {letters.count('b')} times")
 
 # *****************************************************************************************************************
 
-#                                                   REVERSE
+#                                                    REVERSE
 
 # *****************************************************************************************************************
 
@@ -223,7 +223,7 @@ print(f"{names}")
 
 # *****************************************************************************************************************
 
-#                                                    SORT
+#                                                     SORT
 
 # *****************************************************************************************************************
 
@@ -236,7 +236,7 @@ print(f"\nNames after sort ->\n{names}")
 
 # *****************************************************************************************************************
 
-#                                                  JOIN
+#                                                     JOIN
 
 # *****************************************************************************************************************
 
@@ -245,3 +245,43 @@ print("\nJOIN -->")
 # You can use join to convert a list into a string
 words = ["Hello", "my", "name", "is", "Bruno"]
 print(" ".join(words))
+
+# *****************************************************************************************************************
+
+#                                                    SLICES
+
+# *****************************************************************************************************************
+
+print("\nSLICES -->")
+
+# You can use slices to get a part of a list, using start and stop indexes, and step, if you want to
+# PS: You can pass negative indexes, going from the end to the beginning
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print("\nNumbers ->")
+print(f"{nums}")
+
+print("\nNumber after slice with start ->")
+print(f"{nums[4:]}")
+
+print("\nNumber after slice with start and end ->")
+print(f"{nums[1:6]}")
+
+print("\nNumber after slice with start, end, and step ->")
+print(f"{nums[1:10:2]}")
+
+# *****************************************************************************************************************
+
+#                                             Tricks with Slices
+
+# *****************************************************************************************************************
+
+print("\nTricks with slices -->")
+
+# Reversing lists
+print("\nReversing lists ->")
+print(f"{nums[::-1]}")
+
+# Modifying portions of lists
+print("\nModifying portions of lists ->")
+nums[1:4] = [0, 0, 0]
+print(f"{nums}")

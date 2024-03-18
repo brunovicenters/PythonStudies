@@ -285,3 +285,18 @@ print(f"{nums[::-1]}")
 print("\nModifying portions of lists ->")
 nums[1:4] = [0, 0, 0]
 print(f"{nums}")
+
+# *****************************************************************************************************************
+
+#                                              Swapping values
+
+# *****************************************************************************************************************
+
+nicknames = ["McCoelho", "Cenourinha"]
+
+print("\nNicknames before swap ->")
+print(f"{nicknames}")
+
+nicknames[0], nicknames[1] = nicknames[1], nicknames[0]
+print("\nNicknames after swap ->")
+print(f"{nicknames}")

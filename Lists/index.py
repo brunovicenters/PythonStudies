@@ -94,3 +94,33 @@ print("\nAPPEND -->")
 
 games.append("Unbound")
 print(f"{games}")
+
+# *****************************************************************************************************************
+
+#                                               EXTEND
+
+# *****************************************************************************************************************
+
+print("\nEXTEND -->")
+
+# You can add multiple data to the end of a list using extend
+
+games.extend(["PUBG", "Rocket League", "Horizon"])
+print(f"{games}")
+
+# *****************************************************************************************************************
+
+#                                              INSERT
+
+# *****************************************************************************************************************
+
+print("\nINSERT -->")
+
+# You can add data in a specific position of a list using insert
+games.insert(3, "Minecraft")
+print(f"{games}")
+
+print("\nINSERT with negative indexes -->")
+# You can use negative indexes
+games.insert(-1, "Cuphead")
+print(f"{games}")

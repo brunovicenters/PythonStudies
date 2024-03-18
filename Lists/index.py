@@ -80,3 +80,17 @@ i = 0
 while i < len(games):
     print(f"I like to play {games[i]}")
     i += 1
+
+
+# *****************************************************************************************************************
+
+#                                                 APPEND
+
+# *****************************************************************************************************************
+
+print("\nAPPEND -->")
+
+# You can add a single data to the end of a list using append
+
+games.append("Unbound")
+print(f"{games}")

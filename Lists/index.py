@@ -233,3 +233,15 @@ print("\nSORT -->")
 print(f"\nNames before sort ->\n{names}")
 names.sort()
 print(f"\nNames after sort ->\n{names}")
+
+# *****************************************************************************************************************
+
+#                                                  JOIN
+
+# *****************************************************************************************************************
+
+print("\nJOIN -->")
+
+# You can use join to convert a list into a string
+words = ["Hello", "my", "name", "is", "Bruno"]
+print(" ".join(words))

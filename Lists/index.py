@@ -197,3 +197,39 @@ print(f"The index of Tarsila is {names.index('Tarsila')}")
 # You can specify the start and stop indexes
 letters = ["a", "b", "c", "d", "b", "e", "f", "b", "g", "h"]
 print(f"\nThe index of the second b is {letters.index('b', 2, 8)}")
+
+# *****************************************************************************************************************
+
+#                                                     COUNT
+
+# *****************************************************************************************************************
+
+print("\nCOUNT -->")
+
+# You can count how many times a data appears in a list using count
+print(f"The letter b appears {letters.count('b')} times")
+
+# *****************************************************************************************************************
+
+#                                                   REVERSE
+
+# *****************************************************************************************************************
+
+print("\nREVERSE -->")
+
+# You can reverse a list using reverse
+names.reverse()
+print(f"{names}")
+
+# *****************************************************************************************************************
+
+#                                                    SORT
+
+# *****************************************************************************************************************
+
+print("\nSORT -->")
+
+# You can sort a list in ascending order using sort
+print(f"\nNames before sort ->\n{names}")
+names.sort()
+print(f"\nNames after sort ->\n{names}")

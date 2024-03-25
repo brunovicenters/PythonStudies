@@ -300,3 +300,26 @@ print(f"{nicknames}")
 nicknames[0], nicknames[1] = nicknames[1], nicknames[0]
 print("\nNicknames after swap ->")
 print(f"{nicknames}")
+
+# *****************************************************************************************************************
+
+#                                            LISTS COMPREHENSION
+
+# *****************************************************************************************************************
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+print("\nNumbers ->")
+print(f"{numbers}")
+
+print("\nNumbers squared ->")
+
+# List comprehension is like a for loop in a single line, always returning  a list
+# [_expression_   for   _item_   in   _iterable_   *if   _condition_] -> *if is optional
+sqrd_numbers = [num**2 for num in numbers if num % 2 == 0]
+print(f"{sqrd_numbers}")
+
+# You can also use else
+print("\nNumbers even or odd? ->")
+even_or_odd = ["even" if num % 2 == 0 else "odd" for num in numbers]
+print(f"{even_or_odd}")

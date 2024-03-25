@@ -1,4 +1,4 @@
-# sourcery skip: collection-to-bool, de-morgan, equality-identity, remove-redundant-if, use-assigned-variable
+# sourcery skip: collection-to-bool, de-morgan, equality-identity, remove-redundant-if, use-assigned-variable, while-to-for;for-index-replacement
 # *****************************************************************************************************************
 
 #                                                      LISTS

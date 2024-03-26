@@ -323,3 +323,26 @@ print(f"{sqrd_numbers}")
 print("\nNumbers even or odd? ->")
 even_or_odd = ["even" if num % 2 == 0 else "odd" for num in numbers]
 print(f"{even_or_odd}")
+
+# *****************************************************************************************************************
+
+#                                              NESTED LISTS
+
+# *****************************************************************************************************************
+
+print("\nNested Lists -->")
+
+# You can put any type of data in a list, including other lists
+nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(f"{nested_list}")
+
+print("\nAccess the second number in the third list ->")
+print(f"{nested_list[2][1]}")
+
+print("\nLoop through nested lists ->")
+for list in nested_list:
+    for num in list:
+        print(num)
+
+print("\nNested List Comprehension ->")
+[[print(num) for num in item] for item in nested_list]

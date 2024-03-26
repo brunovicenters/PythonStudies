@@ -30,4 +30,8 @@ print(f"\nOnly consonants -> {answer}\n")
 
 # Write [[0,1,2],[0,1,2],[0,1,2]] using nested list comprehension
 answer = [[num for num in range(3)] for item in range(3)]
-print(f"Nested list comprehension -> {answer}")
+print(f"\nNested list comprehension -> {answer}\n")
+
+# Write a matrix 10x10
+answer = [[num for num in range(10)] for item in range(10)]
+print(f"\nMatrix 10x10 -> {answer}\n")

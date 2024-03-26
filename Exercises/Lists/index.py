@@ -1,3 +1,4 @@
+# sourcery skip: collection-to-bool, de-morgan, equality-identity, remove-redundant-if, use-assigned-variable, while-to-for, for-index-replacement,for-index-underscore, identity-comprehension;
 print("Exercises:")
 
 # LIST COMPREHENSION -->
@@ -26,3 +27,7 @@ print(f"\nDivisible by 12 -> {answer}\n")
 # Write the string without the vowels
 answer = "".join([char for char in "amazing" if char not in "aeiou"])
 print(f"\nOnly consonants -> {answer}\n")
+
+# Write [[0,1,2],[0,1,2],[0,1,2]] using nested list comprehension
+answer = [[num for num in range(3)] for item in range(3)]
+print(f"Nested list comprehension -> {answer}")

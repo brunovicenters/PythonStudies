@@ -19,12 +19,20 @@ names = ["Bruno", "Tarsila", "Bárbara", "Joaquim"]
 print("\nNames -->")
 print(f"{names}")
 
+print("\nRange in lists -->")
+# You can use list() to convert a range into a list
+print(f"{list(range(5))}")
+
+# *****************************************************************************************************************
+
+#                                                    LEN
+
+# *****************************************************************************************************************
+print("\nLEN:")
+
 # To get the length of a list use len()
 print(f"There are {len(names)} names in the list.")
 
-print("\nRange in lists -->")
-# You can use list() to conver a range into a list
-print(f"{list(range(5))}")
 
 # *****************************************************************************************************************
 

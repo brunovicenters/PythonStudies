@@ -116,3 +116,22 @@ print("\nCOPY:")
 # You can copy a dictionary using copy
 copied_course = course.copy()
 print(f"Copied course -> {copied_course}")
+
+# *****************************************************************************************************************
+
+#                                                     FROMKEYS
+
+# *****************************************************************************************************************
+
+print("\nFROMKEYS:")
+
+# You can create a key-value pair using fromkey
+# For each value in the first argument, you create a key-value pair with the second argument
+# PS: It works with strings, range, lists and tuples
+print("\nCreate a key-value pair using fromkeys:")
+
+fk = {}.fromkeys(["name"], "Vicente")
+print(f"Creted a pair -> {fk}")
+
+fk = {}.fromkeys(["name", "age", "country"], "unknown")
+print(f"Created pairs -> {fk}")

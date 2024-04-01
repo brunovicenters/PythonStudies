@@ -73,7 +73,7 @@ for key, value in person.items():
 
 # *****************************************************************************************************************
 
-#                                                      IN
+#                                                           IN
 
 # *****************************************************************************************************************
 
@@ -90,3 +90,29 @@ course = {
 print(course)
 print(f"\nThere is a 'name' key in course? {"name" in course}")
 print(f"There is a 'Python' value in course? {'Python' in course.values()}")
+
+# *****************************************************************************************************************
+
+#                                                       CLEAR
+
+# *****************************************************************************************************************
+
+print("\nCLEAR:")
+clear_me = {"name": "Bruno", "age": 32, "country": "Brazil"}
+
+# You can empty a dictionary using clear
+print(f"Before clear -> {clear_me}")
+clear_me.clear()
+print(f"After clear -> {clear_me}")
+
+# *****************************************************************************************************************
+
+#                                                      COPY
+
+# *****************************************************************************************************************
+
+print("\nCOPY:")
+
+# You can copy a dictionary using copy
+copied_course = course.copy()
+print(f"Copied course -> {copied_course}")

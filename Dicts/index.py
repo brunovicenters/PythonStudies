@@ -182,7 +182,7 @@ print(f"\nCourse after popitem -> {course}")
 
 # *****************************************************************************************************************
 
-#                                                   UPDATE
+#                                                      UPDATE
 
 # *****************************************************************************************************************
 
@@ -192,3 +192,23 @@ print("\nUPDATE:")
 print(f"Course before update -> {course}")
 course.update({"language": "Python", "teacher": "Vicente"})
 print(f"Course after update -> {course}")
+
+# *****************************************************************************************************************
+
+#                                                DICT COMPREHENSION
+
+# *****************************************************************************************************************
+print("\nDICT COMPREHENSION:")
+
+# You can create a dictionary using dict comprehension
+numbers = dict(first=1, second=2, third=3)
+print(f"Numbers -> {numbers}")
+
+# key: value(action) for key, value in iterable
+print(f"\nNumbers squared -> ", {key: value**2 for key, value in numbers.items()})
+
+print("\nIterating over list ->")
+print({num: num**2 for num in [1,2,3,4,5]})
+
+print("\nIs even or odd? ->")
+print({num: ("even" if num % 2 == 0 else "odd") for num in [1, 2, 3, 4]})

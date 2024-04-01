@@ -165,3 +165,17 @@ print(f"Course before pop -> {course}")
 print(f"\nRemoved duration -> {course.pop('duration')}")
 
 print(f"\nCourse after pop -> {course}")
+
+
+# *****************************************************************************************************************
+
+#                                                    POPITEM
+
+# *****************************************************************************************************************
+
+print("\nPOPITEM:")
+
+# You can remove a random key-value pair using popitem
+print(f"Course before popitem -> {course}")
+print(f"\nRemoved item -> {course.popitem()}")
+print(f"\nCourse after popitem -> {course}")

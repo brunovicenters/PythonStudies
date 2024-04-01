@@ -135,3 +135,17 @@ print(f"Creted a pair -> {fk}")
 
 fk = {}.fromkeys(["name", "age", "country"], "unknown")
 print(f"Created pairs -> {fk}")
+
+# *****************************************************************************************************************
+
+#                                                       GET
+
+# *****************************************************************************************************************
+
+print("\nGET:")
+
+# You can get a value from a dictionary using get
+# PS: If the key doesn't exist, it returns None
+print(f"Course's dict -> {course}")
+print(f"Name value -> {course.get('name')}")
+print(f"Incorrect value -> {course.get('test')}")

@@ -12,3 +12,25 @@ total_donations = 0
 for donation in donations.values():
     total_donations += donation
 print(f"Total donations: {total_donations}")
+
+# DICT COMPREHENSION -->
+print("\nDICT ITERATION -->")
+
+# Given two lists, create a dict with the first list as keys and the second as values
+list1 = ["CA", "NJ", "RI"]
+list2 = ["California", "New Jersey", "Rhode Island"]
+
+answer = {list1[i]: list2[i] for i in range(len(list1))}
+print(answer)
+
+# Given a list with lists, create a dict where the first item is the key and the second is the value
+person = [["name", "Jared"], ["job", "Musician"], ["city", "Bern"]]
+
+answer = {
+    person[i][0]: person[i][1] for i in range(len(person))
+}  # or answer = dict(person)
+print(f"\n{answer}")
+
+# Make the correspondig letter to it ASCII code from 65 to 90
+answer = {i: chr(i) for i in range(65, 91)}
+print(f"\n{answer}")

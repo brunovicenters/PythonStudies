@@ -149,3 +149,19 @@ print("\nGET:")
 print(f"Course's dict -> {course}")
 print(f"Name value -> {course.get('name')}")
 print(f"Incorrect value -> {course.get('test')}")
+
+# *****************************************************************************************************************
+
+#                                                       POP
+
+# *****************************************************************************************************************
+
+print("\nPOP:")
+
+# You can remove a key-value pair using pop
+# PS: It returns the removed value. If the key doesn't exist, it returns an Error
+print(f"Course before pop -> {course}")
+
+print(f"\nRemoved duration -> {course.pop('duration')}")
+
+print(f"\nCourse after pop -> {course}")

@@ -1,4 +1,4 @@
-# sourcery skip: collection-to-bool, de-morgan, equality-identity, remove-redundant-if, use-assigned-variable, while-to-for, for-index-replacement, remove-dict-keys
+# sourcery skip: collection-to-bool, de-morgan, equality-identity, remove-redundant-if, use-assigned-variable, dict-assign-update-to-union, while-to-for, for-index-replacement, remove-dict-keys
 # *****************************************************************************************************************
 
 #                                                    DICTIONARY
@@ -179,3 +179,16 @@ print("\nPOPITEM:")
 print(f"Course before popitem -> {course}")
 print(f"\nRemoved item -> {course.popitem()}")
 print(f"\nCourse after popitem -> {course}")
+
+# *****************************************************************************************************************
+
+#                                                   UPDATE
+
+# *****************************************************************************************************************
+
+print("\nUPDATE:")
+
+# You can update a dictionary using update, adding new key-value pairs or updating existing ones
+print(f"Course before update -> {course}")
+course.update({"language": "Python", "teacher": "Vicente"})
+print(f"Course after update -> {course}")

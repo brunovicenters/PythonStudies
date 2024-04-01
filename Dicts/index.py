@@ -70,3 +70,23 @@ for key in person.keys():
 print("\nItems ->")
 for key, value in person.items():
     print(f"{key}: {value}")
+
+# *****************************************************************************************************************
+
+#                                                      IN
+
+# *****************************************************************************************************************
+
+print("\nIN:")
+
+# You can check if a key is in a dictionary using the "in" operator
+course = {
+    "name": "Introduction to Python",
+    "idiom": "English",
+    "duration": 40,
+    "teacher": "Bruno",
+    "language": "Python",
+}
+print(course)
+print(f"\nThere is a 'name' key in course? {"name" in course}")
+print(f"There is a 'Python' value in course? {'Python' in course.values()}")

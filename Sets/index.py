@@ -111,3 +111,27 @@ print(f"Before clear -> \n{s2}")
 # You can clear a set using .clear()
 s2.clear()
 print(f"After clear -> \n{s2}")
+
+# *****************************************************************************************************************
+
+#                                               MATH
+
+# *****************************************************************************************************************
+
+print("\nMATH:")
+
+# You can do math with sets
+math_students = {"Bruno", "Tarsila", "Abigail", "Gustavo", "Gabriel", "Cauã"}
+biology_students = {"Bruno", "Tarsila", "Iggor", "Matheus", "Gabriel", "Lucas"}
+
+print("\nUnion -->")
+# You can union two sets with the .union() method or with the | operator
+all_students = math_students | biology_students  # math_students.union(biology_students)
+print(all_students)
+
+print("\nIntersection -->")
+# You can intersection two sets with the .intersection() method or with the & operator
+common_students = (
+    math_students & biology_students
+)  # math_students.intersection(biology_students)
+print(common_students)

@@ -85,3 +85,16 @@ s.discard(4)
 print(f"After discarding '4' -> \n{s}")
 s.discard(1)
 print(f"After discarding '1' -> \n{s}")
+
+# *****************************************************************************************************************
+
+#                                                 COPY
+
+# *****************************************************************************************************************
+
+print("\nCOPY:")
+
+# You can copy a set using .copy()
+s2 = s.copy()
+print(f"This is te original -> \n{s}")
+print(f"This is the copy -> \n{s2}")

@@ -67,3 +67,21 @@ print(f"After remove -> \n{s}")
 
 # If you try to remove an item that doesn't exist, it will raise an error
 # s.remove(4) -> This will raise an error
+
+
+# *****************************************************************************************************************
+
+#                                              DISCARD
+
+# *****************************************************************************************************************
+
+print("\nDISCARD:")
+
+print(f"Before discard -> \n{s}")
+
+# Just like remove, you can discard items from a set using .discard()
+# But it doesn't raise an error if the item doesn't exist
+s.discard(4)
+print(f"After discarding '4' -> \n{s}")
+s.discard(1)
+print(f"After discarding '1' -> \n{s}")

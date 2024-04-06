@@ -35,3 +35,19 @@ print("\nLOOPS WITH SETS:")
 
 for item in s:
     print(item)
+
+# *****************************************************************************************************************
+
+#                                                ADD
+
+# *****************************************************************************************************************
+
+print("\nADD:")
+
+# You can add items to a set using .add()
+s.add("Tarsila")
+print(s)
+
+# But you can't add items that are already in the set
+s.add(5)
+print(f"Trying to add 5 again -> \n{s}")

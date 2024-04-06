@@ -98,3 +98,16 @@ print("\nCOPY:")
 s2 = s.copy()
 print(f"This is te original -> \n{s}")
 print(f"This is the copy -> \n{s2}")
+
+# *****************************************************************************************************************
+
+#                                              CLEAR
+
+# *****************************************************************************************************************
+
+print("\nCLEAR:")
+
+print(f"Before clear -> \n{s2}")
+# You can clear a set using .clear()
+s2.clear()
+print(f"After clear -> \n{s2}")

@@ -26,6 +26,10 @@ print(f"nums[0] -> {nums[0]}")
 # You can use in with tuples
 print("5 is in nums: ", 5 in nums)
 
+# To create a tuple with one value, you need to use a "comma" after the value
+single_value_tuple = (5,)
+print(f"single_value_tuple -> {single_value_tuple}")
+
 # *****************************************************************************************************************
 
 #                                              Tuple in dictionaries

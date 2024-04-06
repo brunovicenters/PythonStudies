@@ -51,3 +51,19 @@ print(s)
 # But you can't add items that are already in the set
 s.add(5)
 print(f"Trying to add 5 again -> \n{s}")
+
+# *****************************************************************************************************************
+
+#                                                REMOVE
+
+# *****************************************************************************************************************
+
+print("\nREMOVE:")
+
+print(f"Before remove -> \n{s}")
+# You can remove items from a set using .remove()
+s.remove(4)
+print(f"After remove -> \n{s}")
+
+# If you try to remove an item that doesn't exist, it will raise an error
+# s.remove(4) -> This will raise an error

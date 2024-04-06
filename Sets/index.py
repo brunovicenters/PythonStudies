@@ -114,7 +114,7 @@ print(f"After clear -> \n{s2}")
 
 # *****************************************************************************************************************
 
-#                                               MATH
+#                                                     MATH
 
 # *****************************************************************************************************************
 
@@ -135,3 +135,15 @@ common_students = (
     math_students & biology_students
 )  # math_students.intersection(biology_students)
 print(common_students)
+
+# *****************************************************************************************************************
+
+#                                             COMPREHENSION
+
+# *****************************************************************************************************************
+
+print("\nCOMPREHENSION:")
+
+# You can create a set using a comprehension
+set_comprehension = {item * 3 for item in range(10)}
+print(set_comprehension)

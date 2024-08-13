@@ -32,3 +32,29 @@ def happy_birthday(name: str):
 
 
 happy_birthday("Tarsila")
+
+# *****************************************************************************************************************
+
+#                                               Return
+
+# *****************************************************************************************************************
+
+print("\nRETURN:")
+
+
+# To return a value use return
+def square_of(num: int):
+    return num**2
+
+
+sqr = square_of(5)
+
+print(f"\nSquare of 5 -> {sqr}\n")
+
+
+# You can also define the return type
+def even_or_odd(num: int) -> str:
+    return "even" if num % 2 == 0 else "odd"
+
+
+print(f"\nIs 5 even or odd? -> {even_or_odd(5)}\n")

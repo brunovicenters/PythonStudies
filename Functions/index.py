@@ -58,3 +58,25 @@ def even_or_odd(num: int) -> str:
 
 
 print(f"\nIs 5 even or odd? -> {even_or_odd(5)}\n")
+
+# *****************************************************************************************************************
+
+#                                               Global
+
+# *****************************************************************************************************************
+
+print("\nGlobal:")
+
+# You can have access to global variables inside a function with the keyword global
+
+x = 5
+y = 10
+
+
+def multiply():
+    global x
+    global y
+    return x * y
+
+
+print(f"\n{x} * {y} = {multiply()}\n")

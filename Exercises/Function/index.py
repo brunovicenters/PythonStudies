@@ -12,3 +12,25 @@ def generate_evens():
 
 print("\nEven numbers from 0 to 50:")
 print(generate_evens())
+
+# Write a function that accepts a parameter called animal and it will return a
+# different "sound" to each one:
+
+
+# Define speak below:
+def speak(animal="dog"):
+    match animal:
+        case "pig":
+            return "oink"
+        case "duck":
+            return "quack"
+        case "cat":
+            return "meow"
+        case "dog":
+            return "woof"
+        case _:
+            return "?"
+
+
+print("\nWhich animal is here?")
+print(speak("pig"))

@@ -80,3 +80,23 @@ def multiply():
 
 
 print(f"\n{x} * {y} = {multiply()}\n")
+
+# *****************************************************************************************************************
+
+#                                                   Docstring
+
+# *****************************************************************************************************************
+
+print("\nDocstring:")
+
+# You can add documentation to your functions using the docstring
+
+
+def exponent(num, power=2):
+    """exponent(num, power) -> num to specified power. Power defaults to 2"""
+
+    return num**power
+
+
+print(exponent(5, 3))
+print(exponent.__doc__)

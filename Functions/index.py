@@ -100,3 +100,22 @@ def exponent(num, power=2):
 
 print(exponent(5, 3))
 print(exponent.__doc__)
+
+
+# *****************************************************************************************************************
+
+#                                                   Star args
+
+# *****************************************************************************************************************
+
+print("\nStar args:")
+
+# You can pass any number of arguments to a function using the *
+
+
+def sum_all_nums(*nums):
+
+    return sum(nums)
+
+
+print(sum_all_nums(1, 2, 3, 4, 5, 6, 7, 8, 9, 10))

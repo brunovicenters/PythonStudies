@@ -101,7 +101,6 @@ def exponent(num, power=2):
 print(exponent(5, 3))
 print(exponent.__doc__)
 
-
 # *****************************************************************************************************************
 
 #                                                   Star args
@@ -111,6 +110,7 @@ print(exponent.__doc__)
 print("\nStar args:")
 
 # You can pass any number of arguments to a function using the *
+# *args argument is a tuple of all the arguments passed to the function
 
 
 def sum_all_nums(*nums):
@@ -119,3 +119,23 @@ def sum_all_nums(*nums):
 
 
 print(sum_all_nums(1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
+
+# *****************************************************************************************************************
+
+#                                                   Key args
+
+# *****************************************************************************************************************
+
+print("\nKey args:")
+
+# You can pass any number of keyword arguments to a function using the **kwargs argument
+# **kwargs argument is a dictionary of all the keyword arguments passed to the function
+
+
+def fav_colors(**kwargs):
+
+    for key, value in kwargs.items():
+        print(f"{key.capitalize()}'s favorite color is {value}")
+
+
+fav_colors(vicente="purple", tarsila="blue/green", matheus="red")
